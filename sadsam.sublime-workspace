@@ -1,0 +1,667 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"toggle",
+				"toggleSourceFilter"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"mod",
+				"modifyPrize"
+			],
+			[
+				"semi",
+				"semilink"
+			],
+			[
+				"class",
+				"className"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"te",
+				"template"
+			],
+			[
+				"co",
+				"collection"
+			],
+			[
+				"smi",
+				"semispace"
+			],
+			[
+				"semili",
+				"semilink-next"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"open",
+				"openLogin"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"target",
+				"targetNode"
+			],
+			[
+				"B",
+				"broadcaster"
+			],
+			[
+				"for",
+				"forin	Array Comprehension"
+			],
+			[
+				"col",
+				"column"
+			],
+			[
+				"st",
+				"stdDev"
+			],
+			[
+				"de",
+				"differences"
+			],
+			[
+				"cell",
+				"cellSize"
+			],
+			[
+				"v",
+				"visualizeGrid"
+			],
+			[
+				"ta",
+				"tableNode"
+			],
+			[
+				"c",
+				"coordinates"
+			],
+			[
+				"td",
+				"tdNode"
+			],
+			[
+				"re",
+				"renderGrid"
+			],
+			[
+				"r",
+				"rows"
+			],
+			[
+				"im",
+				"imageObj"
+			],
+			[
+				"getEl",
+				"getElementsByTagName"
+			],
+			[
+				"ur",
+				"encodeURIComponent"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/Coffee-Script.sublime-build",
+	"command_palette":
+	{
+		"height": 93.0,
+		"selected_items":
+		[
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"colo",
+				"Color Picker: Insert Color"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"fe",
+				"Fetch: File"
+			],
+			[
+				"fetch",
+				"Fetch: File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sssty",
+				"Set Syntax: Stylus"
+			],
+			[
+				"ssp",
+				"Set Syntax: Python"
+			],
+			[
+				"forma",
+				"Format: Javascript"
+			],
+			[
+				"js",
+				"Format: Javascript"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"ww",
+				"Word Wrap: Toggle"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"lint",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"lin",
+				"SublimeLinter: Disable Linting"
+			],
+			[
+				"run",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"fo",
+				"Format: Javascript"
+			],
+			[
+				"ssejs",
+				"Set Syntax: EJS"
+			],
+			[
+				"ssjad",
+				"Set Syntax: Jade"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"tag",
+				"Tag: Auto-Format Tags on Document"
+			],
+			[
+				"copy as",
+				"File: Copy as Tag script"
+			],
+			[
+				"fet",
+				"Fetch: File"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"for",
+				"Format: Javascript"
+			],
+			[
+				"csscomb",
+				"Sort via CSScomb"
+			],
+			[
+				"css",
+				"Sort via CSScomb"
+			],
+			[
+				"copy",
+				"File: Copy as Tag script"
+			],
+			[
+				"feth",
+				"Fetch: Package"
+			],
+			[
+				"prefixr",
+				"Preferences: Prefixr Key Bindings – Default"
+			],
+			[
+				"copy ",
+				"File: Copy as Tag script"
+			],
+			[
+				"ss",
+				"Set Syntax: JSON"
+			],
+			[
+				"task",
+				"Tasks: New document"
+			],
+			[
+				"bu",
+				"Create Xiki Buffer"
+			],
+			[
+				"ssh",
+				"Set Syntax: HTML"
+			],
+			[
+				"emm",
+				"Set Syntax: Emmet"
+			],
+			[
+				"toggle ",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"snippet",
+				"Snippet: Object Comprehension"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"buffe",
+				"Create Xiki Buffer"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 579.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/inkuzmin/Dropbox/Development/VK Audio/VK Audio.safariextension/js/global.js",
+		"/Users/inkuzmin/Desktop/samotsvety/app.coffee",
+		"/Users/inkuzmin/Desktop/samotsvety/routes/plants.coffee",
+		"/Users/inkuzmin/Desktop/samotsvety/views/articles.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/about.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/includes/filters.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/style.styl",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/bootstrap.ie.min.js",
+		"/Users/inkuzmin/Desktop/samotsvety/views/layout.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/bootstrap.ie.min.css",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/index.coffee",
+		"/Users/inkuzmin/Desktop/samotsvety/routes/plants.js",
+		"/Users/inkuzmin/Desktop/samotsvety/rest/index.coffee",
+		"/Users/inkuzmin/Desktop/samotsvety/routes/index.coffee",
+		"/Users/inkuzmin/Desktop/node-json2officexml-master/test.xls",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/bootstrap.ie7.min.css",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/bootstrap.ie6.min.css",
+		"/Users/inkuzmin/Desktop/samotsvety/views/index.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/includes/contacts.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/includes/footer.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/jquery.fancybox.css",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/script.coffee",
+		"/Users/inkuzmin/Desktop/samotsvety/views/faq.jade",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/underscore.min.js",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/jquery.min.js",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/backbone.min.js",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/Fetch.sublime-settings",
+		"/Users/inkuzmin/Desktop/samotsvety/views/includes/logo.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/includes/navigation.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/contacts.jade",
+		"/Users/inkuzmin/Desktop/samotsvety/views/сщтефсеыюофву",
+		"/Users/inkuzmin/Desktop/samotsvety/README.md",
+		"/Users/inkuzmin/Desktop/samotsvety/public/js/script.js",
+		"/Users/inkuzmin/Desktop/samotsvety/public/css/style.css",
+		"/Users/inkuzmin/Desktop/aBHSB/js/index.js",
+		"/Users/inkuzmin/Desktop/aBHSB/js/bot.js",
+		"/Users/inkuzmin/Desktop/aBHSB/js/utf8cp1251.js",
+		"/Users/inkuzmin/Desktop/aBHSB/js/iconv.js",
+		"/Users/inkuzmin/Desktop/aBHSB/project.watchr",
+		"/Users/inkuzmin/Dropbox/Development/VK Audio/VK Audio.safariextension/global.html",
+		"/Users/inkuzmin/Dropbox/Development/VK Audio/VK Audio.safariextension/src/lastfm.coffee",
+		"/Users/inkuzmin/Desktop/lastfm.coffee",
+		"/Users/inkuzmin/Desktop/VK Audio/css/style.css",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/css/style.css",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/src/main.coffee",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/src/broadcaster.coffee",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/lib/broadcaster.coffee",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/lib/broadcaster.js",
+		"/Users/inkuzmin/Desktop/VK Audio/VK Audio.safariextension/js/md5sum.js",
+		"/Users/inkuzmin/.gitconfig",
+		"/Users/inkuzmin/Desktop/vk-audio-bits/VK Audio.safariextension/lib",
+		"/Users/inkuzmin/Desktop/vk-audio-bits/VK Audio.safariextension/js/underscore.min.js",
+		"/Users/inkuzmin/Desktop/vk-audio-bits/VK Audio.safariextension/src",
+		"/Users/inkuzmin/Desktop/test.py",
+		"/Users/inkuzmin/Desktop/test2.py",
+		"/Users/inkuzmin/Desktop/дискретка/матлог3.md",
+		"/Users/inkuzmin/Desktop/дискретка/матлог2.mdown",
+		"/Users/inkuzmin/Desktop/дискретка/String.replace(regexp, replacement)",
+		"/Users/inkuzmin/Desktop/каскад/4.html",
+		"/Users/inkuzmin/Desktop/каскад/3.php",
+		"/Users/inkuzmin/Desktop/joshua/public/javascripts/socket.io.js",
+		"/Users/inkuzmin/Desktop/joshua/app",
+		"/Users/inkuzmin/Desktop/VNyCke0_rDM.jpg",
+		"/Users/inkuzmin/Development/xojiod/august4u/chat/Chat.java",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Alignment/readme.creole",
+		"/Users/inkuzmin/Desktop/agreedator/js/script.coffee",
+		"/Users/inkuzmin/Desktop/agreedator/js/drag.js",
+		"/Users/inkuzmin/Desktop/agreedator/css/main.css",
+		"/Users/inkuzmin/Desktop/agreedator/css/style.css",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/inkuzmin/Desktop/agreedator/lib/desaturate.js",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Tag/readme.md",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/Coffee-Script.sublime-build",
+		"/Users/inkuzmin/Desktop/agreedator/src/desaturate",
+		"/Users/inkuzmin/Desktop/agreedator/js/angular.min.js",
+		"/Users/inkuzmin/Desktop/agreedator/css/bootstrap-responsive.min.css",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Solarized (Dark).tmTheme",
+		"/Users/inkuzmin/Desktop/agreedator/test/mocha.opts",
+		"/Users/inkuzmin/node_modules/AwesomeGame/package.json",
+		"/Users/inkuzmin/Desktop/agreedator/package.json",
+		"/Users/inkuzmin/node_modules/AwesomeGame/test.coffee",
+		"/Users/inkuzmin/node_modules/AwesomeGame/test/mocha.opts",
+		"/Users/inkuzmin/Desktop/agreedator/css/style.min.css",
+		"/Users/inkuzmin/Desktop/agreedator/js/bootstrap.min.js",
+		"/Users/inkuzmin/Desktop/agreedator/css/bootstrap.css",
+		"/Users/inkuzmin/Desktop/agreedator/js/drag.min.js",
+		"/Users/inkuzmin/Desktop/html5-native-dnd-tutorial-screenshot.png",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/CSSFormat/ReadMe.txt",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Minifier/README.md",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Gist/Gist.sublime-settings",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/User/XHR/XML HTTP POST.sublime-snippet",
+		"/Users/inkuzmin/Library/Application Support/Sublime Text 2/Packages/Http Requester/README.md",
+		"/Users/inkuzmin/Desktop/agreedator/test.js",
+		"/Users/inkuzmin/Music/07. Yes Future.m4a",
+		"/Users/inkuzmin/Sites/blynch/js/amoeba.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			".btn",
+			"a.btn",
+			"btn",
+			"html",
+			"append",
+			"ul",
+			"btn",
+			"alert",
+			"url",
+			"add lighting effects",
+			"112.95.244.42",
+			"\\n",
+			"/\\n/g",
+			"\\n",
+			"message",
+			"i",
+			".style",
+			"style",
+			"route",
+			"XMSG",
+			"msg.style",
+			"msgtone",
+			"css",
+			"'\n",
+			"numbers",
+			"desaturate",
+			"Обесцвтт",
+			"highlight",
+			"Highlight",
+			"width",
+			"imageObj",
+			"test1",
+			"tst",
+			"test1",
+			"evt",
+			"label",
+			"clicknick",
+			"cont",
+			"sendcmdcont",
+			"sendcmd",
+			"CONN.req",
+			"CONN.req(\"newmsg\"",
+			"CONN.req(\"newmsg\",",
+			"XMSG.route",
+			"mode",
+			"\\{rep\\-.+\\}",
+			"{rep\\-.+}",
+			"{rep-.+}",
+			"cont",
+			"\",\n",
+			"google",
+			"blue",
+			"4",
+			"\n",
+			"4",
+			"Amoeba",
+			"OS",
+			"Amoeba",
+			"test",
+			"\n",
+			"test"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\n'",
+			"',\\n",
+			"'\\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.94630781428,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 94.0
+	},
+	"output.git":
+	{
+		"height": 115.0
+	},
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"drag",
+				"js/drag.js"
+			],
+			[
+				"main.",
+				"css/main.css"
+			],
+			[
+				"cofee",
+				"src/desaturate.coffee"
+			],
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"sty",
+				"css/style.css"
+			],
+			[
+				"boot",
+				"js/bootstrap.min.js"
+			],
+			[
+				"index",
+				"index.html"
+			],
+			[
+				"js",
+				"js/pseudopodia.js"
+			],
+			[
+				"",
+				"untitled"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 279.0,
+	"status_bar_visible": true
+}

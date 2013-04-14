@@ -1,0 +1,44 @@
+doctype 5
+html
+  head
+    meta(charset='utf-8')
+    title= title
+    link(rel='stylesheet', href='/css/bootstrap.min.css')
+    link(rel='stylesheet', href='/css/jquery.fancybox.css')
+    block styles
+    link(rel='stylesheet', href='/css/style.css')
+  body
+    #wrap
+        .container
+            .row-fluid
+                include includes/logo
+                include includes/contacts
+            .row-fluid
+                include includes/navigation
+            .row.content
+                block content
+        #push
+    #triangles
+    footer
+        include includes/footer
+
+    script(src='/js/jquery.min.js')
+    script(src='/js/bootstrap.min.js')
+    script(src='/js/underscore.min.js')
+    script(src='/js/backbone.min.js')
+
+    script(src='/js/jquery.fancybox.min.js')
+
+    #map
+        script(src='//api-maps.yandex.ru/services/constructor/1.0/js/?sid=EC2MW5AXtQoiP3THxyVJbQG-dp04E9My&width=600&height=450')
+    #order
+        input(type='text')#name(placeholder="Имя")
+        br
+        input(type='text')#telephone(placeholder="Телефон")
+        p
+        button.btn.btn-inverse(onclick='$.fancybox.close()') Отправить
+        hr
+        Мы перезвоним в течение суток
+
+    script(src='/js/script.js')
+    block scripts    

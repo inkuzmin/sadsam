@@ -1,0 +1,14 @@
+extends layout
+
+block styles    
+    link(href='/css/jquery-ui-1.10.2.custom.min.css', rel='stylesheet')
+
+block content
+            .span3
+                include includes/filters
+
+            .span8.list
+
+block scripts
+  script(src='/js/jquery-ui-1.10.2.custom.min.js')
+  script(src='/js/index.js')

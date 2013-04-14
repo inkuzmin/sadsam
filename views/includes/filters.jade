@@ -1,0 +1,76 @@
+.filters(data-spy='affix', data-offset-top='140')
+    input(type='text', placeholder='Поиск').input-medium.search-query.search
+    #loader
+        img(src='/img/fancybox_loading.gif')
+    hr
+    ul.unstyled.catalog
+        li.unstyled.source#own
+            ul.unstyled
+                .level1
+                    span.semilink Свои
+                    span.semilink-next :
+                    br
+                li.unstyled.badge.level2.type#shrubs
+                    span.semilink-next – 
+                    span.semilink Кустарники
+                br
+                li.unstyled.badge.level2.special.type#ors
+                    span.semilink-next.patch  – 
+                    span.semilink.patch Многолетники с открытой
+                    br     
+                    span.hidden – 
+                    span.semilink.patch 
+                        | корневой системой
+                p
+
+        li.unstyled.source#imported
+            ul.unstyled
+                .level1
+                    span.semilink Привозные
+                    span.semilink-next :
+                    br
+                li.unstyled.badge.level2.type#roses
+                    span.semilink-next – 
+                    span.semilink Розы
+                br
+                li.unstyled.badge.level2.type#clematis
+                    span.semilink-next – 
+                    span.semilink Клематисы
+                br
+                li.unstyled.badge.level2.type#conifers
+                    span.semilink-next – 
+                    span.semilink Хвойные
+                br
+                li.unstyled.badge.level2.type#perennials
+                    span.semilink-next – 
+                    span.semilink Многолетники
+                br
+                li.unstyled.badge.level2.type#rhododendrons
+                    span.semilink-next – 
+                    span.semilink Рододендроны
+                br
+                li.unstyled.badge.level2.type#peonies
+                    span.semilink-next – 
+                    span.semilink Пионы
+    hr
+    .prize
+        По цене до 
+        span.prize-view 1000
+        span.semispace
+        span.ruble Р
+        p
+        #prize
+    hr
+    .height
+        Высотой
+        до 
+        span.height-view 1000
+        span.semispace
+        см
+        p
+        #height
+
+    //- hr
+    //- .blabla
+        //- span.semilink(onclick='window.PlantListApp.navigate("filter/123", {trigger: true});') Тест
+        //- a(href='/filter/456') Тест

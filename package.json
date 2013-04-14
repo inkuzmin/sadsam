@@ -1,0 +1,15 @@
+{
+  "name": "Samozvety",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "*",
+    "coffee-script": "*",
+    "jade": "*",
+    "stylus": "*",
+    "markdown": "*",
+    "mongodb": "*",
+    "underscore": "*",
+    "sha1": "*"
+  }
+}
