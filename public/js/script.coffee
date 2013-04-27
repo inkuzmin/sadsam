@@ -14,7 +14,18 @@ $(document).ready () ->
     # $("#phone").click ->
     #   $("#phone").text $("#phone").text().replace(/[^+\d*]/ig, "")
     #   Не нужно оказывается, он сам преобразует всё
+       
+    # (onclick='sendmail(); $.fancybox.close();')
+    $("#sendmail").click sendmail
+    $("#telephone").keypress (e)->
+        if e.which == 13
+            sendmail()
     
+    sendmail = ->
+        $.post 'mail',
+            name: $("#name").val()
+            phone: $("#telephone").val()
+        $.fancybox.close()
 
     # Для красоты семилинков
     $(".semilink").hover(

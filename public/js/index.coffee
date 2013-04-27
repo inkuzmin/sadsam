@@ -1,6 +1,16 @@
-Plant = Backbone.Model.extend()
+App = {}
+_.extend App, Backbone.Events
+_.extend _,
+    getTypeFromName: (types, name) ->
+        for x of types
+            if types.hasOwnProperty x
+                if types[x].name == name
+                    return x
 
-PlantView = Backbone.View.extend(
+
+App.Plant = Plant = Backbone.Model.extend()
+
+App.PlantView = PlantView = Backbone.View.extend(
     tagName: 'li'
     className: 'span4'   
 
@@ -8,8 +18,8 @@ PlantView = Backbone.View.extend(
         @model.on 'change', @render, @
         @initPrizeButton()
 
-    # events: ()->
-    #     "click .semilink": "changeFilters"
+    events: ()->
+        "click .tags": "changeFilters"
 
     template: _.template("
         <div class='thumbnail'>
@@ -42,17 +52,13 @@ PlantView = Backbone.View.extend(
     initPrizeButton: ()->
         $(".prize").fancybox()
 
-    # changeFilters: (event)->
-    #     console.log event.currentTarget.innerHTML
-    #     event.stopPropagation()
-
-
-
-
+    changeFilters: (event)->
+        App.trigger 'tag:filter', text: $(event.currentTarget).children().text().trim()
+        event.stopPropagation()
 )
 
 
-PlantList = Backbone.Collection.extend(
+App.PlantList = PlantList = Backbone.Collection.extend(
     model: Plant
     url: '/plants/random'
 
@@ -69,7 +75,7 @@ PlantList = Backbone.Collection.extend(
 
 )
 
-PlantListView = Backbone.View.extend(
+App.PlantListView = PlantListView = Backbone.View.extend(
     tagName: 'ul'
     className: 'thumbnails'
 
@@ -80,7 +86,6 @@ PlantListView = Backbone.View.extend(
 
 
     render: ()->
-        console.log 123
         @addAll()
         @
 
@@ -91,7 +96,6 @@ PlantListView = Backbone.View.extend(
 
     addAll: ()->
         @$el.empty()
-        console.log 123
         @collection.forEach @addOne, @
 
 
@@ -99,12 +103,19 @@ PlantListView = Backbone.View.extend(
 )
 
 
-FiltersView = Backbone.View.extend(
+App.FiltersView = FiltersView = Backbone.View.extend(
     el: ".filters"
 
     initialize: ()->
         # @model.on 'change', @refetchPlants
+        # @model.on 'change', @log, @
         @initSliders()
+        App.bind 'tag:filter', @changeFilterFromTag, @
+
+        @types = _.extend {}, @model.get("filterList").source.own.type, @model.get("filterList").source.imported.type
+
+    log: ()->
+        # console.log @model.get("activeFilters")
 
     events:
         "slide #prize": "changePrizeView"
@@ -122,9 +133,19 @@ FiltersView = Backbone.View.extend(
     #     console.log "LOL"
 
 
+    changeFilterFromTag: (event)->
+        @uncheckAllFilters()
+        type = _.getTypeFromName @types, event.text
+        @toggleTypeFilter type
+
+
+    uncheckAllFilters: () ->
+        _.each $('.type').filter('.filter-on'), (filter) ->
+            $(filter).removeClass 'filter-on'
+        @model.uncheckAllFilters()
 
     toggleTypeFilter: (event)->
-        typeNode = event.currentTarget
+        typeNode = event.currentTarget || document.getElementById event
         type = typeNode.id
         source = $(typeNode).parent().parent().attr("id")
         @model.toggleTypeFilter type, source
@@ -134,7 +155,7 @@ FiltersView = Backbone.View.extend(
         else
             $(typeNode).removeClass 'filter-on'
 
-        event.stopPropagation()
+        event.stopPropagation?()
 
     toggleSourceFilter: (event)->
         source = event.currentTarget
@@ -190,7 +211,10 @@ FiltersView = Backbone.View.extend(
 )
 
 
-Filters = Backbone.Model.extend(
+App.Filters = Filters = Backbone.Model.extend(
+    uncheckAllFilters: ()->
+        @set "activeFilters": []
+
     setSearch: (searchText)->
         @set search: searchText
 
@@ -257,13 +281,18 @@ Filters = Backbone.Model.extend(
                             name: "Рододендроны"
                         peonies:
                             name: "Пионы"
-
 )
 
+# walkFilterList = (filter, fn) ->
+# fn(filter)
+# i = 0
+# filter = filter[i]
+# while(filter)
+#   walkFilterList filter, fn
+#   filter = filter[i++]
+# 
 
-
-
-window.PlantListApp = new (Backbone.Router.extend(
+App.PlantListApp = PlantListApp = new (Backbone.Router.extend(
     routes:
         "": "index"
         "filter/:query": "filter"
@@ -288,4 +317,4 @@ window.PlantListApp = new (Backbone.Router.extend(
 
 ))
 
-$(()->window.PlantListApp.start())
+$(()->App.PlantListApp.start())

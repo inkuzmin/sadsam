@@ -2,7 +2,7 @@
 (function() {
 
   $(document).ready(function() {
-    var currentMenuItem;
+    var currentMenuItem, sendmail;
     currentMenuItem = _.find($(".nav li a"), function(a) {
       return a.href.match(new RegExp(window.location.pathname, "i"));
     });
@@ -11,6 +11,19 @@
       currentMenuItem.href = null;
     }
     $(".fancybox").fancybox();
+    $("#sendmail").click(sendmail);
+    $("#telephone").keypress(function(e) {
+      if (e.which === 13) {
+        return sendmail();
+      }
+    });
+    sendmail = function() {
+      $.post('mail', {
+        name: $("#name").val(),
+        phone: $("#telephone").val()
+      });
+      return $.fancybox.close();
+    };
     $(".semilink").hover(function() {
       if ($(this).next().hasClass("semilink-next")) {
         $(this).next().addClass("semilink-next-hover");

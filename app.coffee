@@ -1,7 +1,8 @@
 express = require 'express'
 
-pages = require './routes/pages'
+pages  = require './routes/pages'
 plants = require './routes/plants'
+mail   = require './routes/mail'
 
 http = require 'http'
 path = require 'path'
@@ -34,6 +35,9 @@ app.configure 'development', ->
 
 # Static pages
 app.get '/', pages.index
+
+app.post '/mail', mail.send
+
 app.get '/about', pages.about
 app.get '/faq', pages.faq
 app.get '/articles', pages.articles
