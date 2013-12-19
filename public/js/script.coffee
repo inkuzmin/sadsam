@@ -10,6 +10,7 @@ $(document).ready () ->
     # Тут обработка карты для фенсибокса
     $(".fancybox").fancybox()
 
+
     # # Преобразование телефона для Айфонов
     # $("#phone").click ->
     #   $("#phone").text $("#phone").text().replace(/[^+\d*]/ig, "")
